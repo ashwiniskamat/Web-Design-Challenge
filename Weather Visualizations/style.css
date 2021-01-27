@@ -1,0 +1,98 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-color:rgba(127, 192, 214, 0.952);
+  }
+  
+  .navbar-light .navbar-brand {
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar-brand {
+    font-family: "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(158, 158, 158);
+    padding: 20px;
+    margin-left: 5%;
+  }
+  
+  .navbar-collapse {
+    position: absolute;
+    right: 5%;
+    font-size: small;
+  }
+  
+  .nav-item {
+    font-weight: bold;
+  }
+  
+  .content {
+    width:90%;
+    margin: 20px auto;
+    padding:1em;
+  }
+    
+   .text-left {
+    text-align: left;
+    color: rgb(124, 77, 116);
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+  }
+  
+  .text-center {
+    color: rgb(124, 20, 150);
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+  }
+  
+  p:not(.intro) {
+    text-align: justify;
+    color: rgb(20, 61, 150);
+  }
+  
+  .thumbnail {
+    width: 50%;
+  }
+  
+  .main-image {      
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      float: left;
+  }
+  
+  .col-md-8 {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .col-sm-12,.col-md-4 {
+    background-color: white;
+  }
+  
+  div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+    width: 100%;
+  }
+  
+  .imagetiles {
+    background-color: rgb(255, 255, 255);
+  }
+  div.imagetiles div.col-lg-6.col-sm-12 img {
+    width: 100%;
+  }
+  
+  div.col-sm-12.col-md-12 p {
+    color: black;
+    font-size: small;
+  }
+  
+  .panel-body:hover {
+    border-color: rgb(13, 105, 33);
+    border size: 50px;
+  }
+  
+  @include media-breakpoint-down(md) {
+    .col-md-8 {
+      display: block;
+    }
+  }
